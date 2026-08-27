@@ -1,5 +1,7 @@
 {
   "hero": {
-    "title": "Developer & Problem Solver"
+    "greeting": "Hello, I'm",
+    "name": "Al Gyfrans",
+    "role": "Developer & Problem Solver"
   }
 }

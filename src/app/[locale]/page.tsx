@@ -1,15 +1,30 @@
 import Container from "@/components/common/container";
-import ThemeToggle from "@/components/common/theme-toggle";
 
-export default function Home() {
+interface PageProps {
+  params: Promise<{
+    locale: string;
+  }>;
+}
+
+export default async function Home({
+  params,
+}: PageProps) {
+
+  const {
+    locale,
+  } = await params;
+
   return (
     <main className="min-h-screen">
       <Container>
-        <section className="flex min-h-screen items-center justify-between">
+        <section className="flex min-h-screen items-center">
 
           <div>
+
             <p className="text-muted">
-              Hello, I'm
+              {locale === "id"
+                ? "Halo, saya"
+                : "Hello, I'm"}
             </p>
 
             <h1 className="mt-4 text-5xl font-semibold tracking-tight">
@@ -19,9 +34,8 @@ export default function Home() {
             <p className="mt-4 text-xl text-muted">
               Developer & Problem Solver
             </p>
-          </div>
 
-          <ThemeToggle />
+          </div>
 
         </section>
       </Container>
