@@ -7,7 +7,7 @@ import LanguageSwitcher from "@/components/common/language-switcher";
 export default function Navbar() {
   return (
     <header className="
-      fixed
+      fixed z-50
       top-6
       left-1/2
       z-50

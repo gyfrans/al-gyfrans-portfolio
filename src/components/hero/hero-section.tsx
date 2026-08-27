@@ -1,3 +1,4 @@
+
 import Container from "@/components/common/container";
 
 import HeroContent from "./hero-content";
@@ -7,22 +8,23 @@ export default function HeroSection() {
   return (
     <section
       className="
+        relative
         min-h-screen
+        overflow-hidden
         pt-32
-        pb-16
       "
     >
       <Container>
         <div
           className="
-            grid
+            relative
+            flex
+            min-h-[calc(100vh-160px)]
             items-center
-            gap-10
-            md:grid-cols-[1.05fr_0.95fr]
-            md:gap-12
           "
         >
           <HeroContent />
+
           <HeroImage />
         </div>
       </Container>
