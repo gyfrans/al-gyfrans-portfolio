@@ -1,10 +1,12 @@
 import Container from "@/components/common/container";
+import ThemeToggle from "@/components/common/theme-toggle";
 
 export default function Home() {
   return (
     <main className="min-h-screen">
       <Container>
-        <section className="flex min-h-screen items-center">
+        <section className="flex min-h-screen items-center justify-between">
+
           <div>
             <p className="text-muted">
               Hello, I'm
@@ -18,6 +20,9 @@ export default function Home() {
               Developer & Problem Solver
             </p>
           </div>
+
+          <ThemeToggle />
+
         </section>
       </Container>
     </main>
