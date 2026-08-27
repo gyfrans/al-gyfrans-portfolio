@@ -1,4 +1,5 @@
 import HeroSection from "@/components/hero/hero-section";
+import JourneySection from "@/components/experience/journey-section";
 
 
 interface PageProps {
@@ -17,6 +18,7 @@ export default async function Home({
   return (
     <main>
       <HeroSection />
+<JourneySection />
     </main>
   );
 }
