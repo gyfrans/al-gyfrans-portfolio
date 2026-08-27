@@ -9,7 +9,7 @@ export default function HeroSection() {
     <section
       className="
         relative
-        min-h-screen
+        min-h-[75vh]
         overflow-hidden
         pt-32
       "

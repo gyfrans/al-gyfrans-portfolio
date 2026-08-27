@@ -1,38 +1,57 @@
 export const journey = [
   {
-    year: "2024",
-    title: "Software Development",
+    year: "2023",
+    category: "FOUNDATION",
+    title: "Starting Web Development",
     description:
-      "Building modern web applications, designing scalable systems, and solving real-world problems through technology.",
+      "Started my journey in software development through vocational education, learning the fundamentals of web development and building my first projects using HTML, CSS, and JavaScript.",
     stack: [
-      "Next.js",
-      "React",
-      "Laravel",
-      "PostgreSQL",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Web Fundamentals",
     ],
   },
+
   {
-    year: "2025",
-    title: "System & IoT Development",
+    year: "2024",
+    category: "EXPLORATION",
+    title: "Exploring Programming & Frameworks",
     description:
-      "Developing integrated systems combining software, hardware, and data-driven solutions.",
+      "Expanded my programming knowledge by exploring different technologies, including C++, PHP, and modern web frameworks such as Tailwind CSS. This phase helped me strengthen programming logic and understand different approaches to building applications.",
     stack: [
-      "IoT",
-      "Firebase",
-      "ESP32",
-      "Cloud",
+      "C++",
+      "PHP",
+      "Tailwind CSS",
+      "Programming Logic",
     ],
   },
+
   {
     year: "2026",
-    title: "Independent Developer",
+    category: "APPLICATION",
+    title: "Applying Skills Through Real Projects",
     description:
-      "Creating digital products, improving engineering skills, and delivering solutions with a focus on usability and impact.",
+      "Applied my knowledge through internship experience and project development, learning modern technologies such as Laravel and Next.js while working on real-world software solutions and collaborative projects.",
     stack: [
-      "TypeScript",
+      "Laravel",
       "Next.js",
-      "UI/UX",
-      "System Design",
+      "Full Stack",
+      "Collaboration",
+    ],
+  },
+
+  {
+    year: "2026",
+    category: "CHALLENGE",
+    title: "Building & Competing",
+    description:
+      "Participated in the SchoolCanteen web development competition, applying software development skills, teamwork, and problem-solving abilities to build a digital solution.",
+    stack: [
+      "SchoolCanteen",
+      "Web Development",
+      "Problem Solving",
+      "Teamwork",
     ],
   },
 ];

@@ -2,6 +2,7 @@ import FadeIn from "@/components/motion/fade-in";
 
 interface JourneyCardProps {
   year: string;
+  category: string;
   title: string;
   description: string;
   stack: string[];
@@ -10,6 +11,7 @@ interface JourneyCardProps {
 
 export default function JourneyCard({
   year,
+  category,
   title,
   description,
   stack,
@@ -20,23 +22,41 @@ export default function JourneyCard({
       <article
         className="
           grid
-          grid-cols-[120px_1fr]
           gap-8
-          border-t
-          border-border
-          py-10
+          
+          
+          py-12
+          md:grid-cols-[80px_1fr]
         "
       >
         <div>
-          <p className="text-sm text-muted">
+          <p className="
+            text-sm
+            text-muted
+          ">
             {year}
           </p>
         </div>
 
-        <div>
+
+        <div className="max-w-2xl">
+
+          <p
+            className="
+              text-xs
+              uppercase
+              tracking-[0.3em]
+              text-muted
+            "
+          >
+            {category}
+          </p>
+
+
           <h3
             className="
-              text-2xl
+              mt-4
+              text-3xl
               font-medium
               tracking-tight
             "
@@ -44,16 +64,17 @@ export default function JourneyCard({
             {title}
           </h3>
 
+
           <p
             className="
-              mt-4
-              max-w-xl
+              mt-5
               leading-relaxed
               text-muted
             "
           >
             {description}
           </p>
+
 
           <div
             className="
@@ -69,7 +90,7 @@ export default function JourneyCard({
                 className="
                   rounded-full
                   border
-                  border-border
+                  
                   px-3
                   py-1
                   text-xs
@@ -79,7 +100,9 @@ export default function JourneyCard({
               </span>
             ))}
           </div>
+
         </div>
+
       </article>
     </FadeIn>
   );
