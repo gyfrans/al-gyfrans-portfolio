@@ -12,14 +12,16 @@ export default function HeroContent() {
       </p>
 
 
-      <h1 className="
-        mt-6
-        text-5xl
-        font-semibold
-        leading-[1.05]
-        tracking-tight
-        md:text-7xl
-      ">
+      <h1
+      className="
+      mt-6
+      text-6xl
+      font-semibold
+      leading-[0.95]
+      tracking-[-0.04em]
+      md:text-8xl
+      "
+      >
         Al Gyfrans
       </h1>
 
