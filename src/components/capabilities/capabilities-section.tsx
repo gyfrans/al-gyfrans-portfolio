@@ -7,11 +7,11 @@ export default function CapabilitiesSection() {
   return (
     <section
       className="
-        min-h-screen
-        pt-36
-        pb-20
+        min-h-[calc(100vh-80px)]
+        pt-28
+        pb-12
         px-6
-        md:pt-40
+        md:pt-32
       "
     >
       <Container>
