@@ -29,7 +29,7 @@ export const journey = [
 
   {
     year: "2026",
-    category: "APPLICATION",
+    category: "PROFESSIONAL GROWTH",
     title: "Applying Skills Through Real Projects",
     description:
       "Applied my knowledge through internship experience and project development, learning modern technologies such as Laravel and Next.js while working on real-world software solutions and collaborative projects.",
@@ -43,7 +43,7 @@ export const journey = [
 
   {
     year: "2026",
-    category: "CHALLENGE",
+    category: "COMPETITION EXPERIENCE",
     title: "Building & Competing",
     description:
       "Participated in the SchoolCanteen web development competition, applying software development skills, teamwork, and problem-solving abilities to build a digital solution.",

@@ -2,7 +2,7 @@
 export const capabilities = [
   {
     number: "01",
-    title: "Digital Product Development",
+    title: "Building Digital Products",
     description:
       "Building digital experiences through frontend, backend, and modern technologies while transforming ideas into functional solutions.",
     tags: [

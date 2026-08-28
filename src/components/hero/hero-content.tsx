@@ -13,7 +13,7 @@ export default function HeroContent() {
             text-muted
           "
         >
-          Developer & Problem Solver
+          Digital Creator & Problem Solver
         </p>
       </FadeIn>
 
